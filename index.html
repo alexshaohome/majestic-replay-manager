@@ -1,59 +1,40 @@
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Majestic Replay Manager</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            max-width: 800px;
-            margin: 60px auto;
-            padding: 0 20px;
-            line-height: 1.7;
-            color: #24292f;
-        }
-        h1 { color: #0969da; }
-        a { color: #0969da; }
-    </style>
-</head>
-<body>
-    <h1>Majestic Replay Manager</h1>
+---
+layout: default
+title: Majestic Replay Manager
+---
 
-    <p>
-        Majestic Replay Manager is a personal Windows desktop
-        application for managing gameplay recordings and
-        uploading them to the owner's YouTube channel.
-    </p>
+<h1>Majestic Replay Manager</h1>
 
-    <h2>Features</h2>
-    <ul>
-        <li>Automatically detect new gameplay recordings.</li>
-        <li>Upload videos privately using the YouTube Data API.</li>
-        <li>Manage uploaded videos and their retention periods.</li>
-        <li>Delete expired private videos uploaded by the application.</li>
-        <li>Clean up old local recording files.</li>
-    </ul>
+<p>
+  A personal Windows desktop application for automatically
+  managing gameplay recordings on YouTube.
+</p>
 
-    <h2>Google Account Access</h2>
-    <p>
-        The application uses Google OAuth 2.0 authorization
-        to access the owner's YouTube channel.
-        Authorization is required to upload, view, and
-        delete videos managed by the application.
-    </p>
+<h2>Features</h2>
+<ul>
+  <li>Automatic detection of new gameplay recordings</li>
+  <li>Private video uploads using the YouTube Data API</li>
+  <li>Configurable video retention and cleanup</li>
+  <li>Automatic cleanup of local recordings</li>
+  <li>Upload history and video management</li>
+</ul>
 
-    <h2>Privacy</h2>
-    <p>
-        Read our <a href="privacy.html">Privacy Policy</a>.
-    </p>
+<h2>Google Account Access</h2>
+<p>
+  The application uses Google OAuth 2.0 to access the
+  authorized user's YouTube channel for uploading and
+  managing gameplay recordings.
+</p>
 
-    <p>
-        Contact:
-        <a href="mailto:alex.shao.home@gmail.com">
-            alex.shao.home@gmail.com
-        </a>
-    </p>
-</body>
-</html>
+<h2>Privacy</h2>
+<p>
+  <a href="{{ '/privacy.html' | relative_url }}">Privacy Policy</a>
+</p>
+
+<h2>Contact</h2>
+<p>
+  <a href="mailto:alex.shao.home@gmail.com">
+    alex.shao.home@gmail.com
+  </a>
+</p>
