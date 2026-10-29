@@ -1,4 +1,3 @@
-
 ---
 layout: default
 title: Majestic Replay Manager
